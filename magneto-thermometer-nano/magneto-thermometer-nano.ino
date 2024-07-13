@@ -40,7 +40,7 @@ void loop() {
 
     magneticFieldMicrotesla = magneticFieldGauss * 100; // microTesla
 
-    temperature = abs(58086 - magneticFieldMicrotesla) / 498.65; // Temperature Formula Derived from Linear Regression
+    temperature = abs(59086 - magneticFieldMicrotesla) / 498.65; // Temperature Formula Derived from Linear Regression
 
     display.clearDisplay(); // Clear
     
